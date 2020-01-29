@@ -2,6 +2,8 @@ import pandas as pd
 import geocoder
 import geopy.distance
 
+#bing maps api key link: https://www.bingmapsportal.com/Application
+
 #import csv remove NAN
 df = pd.read_csv("mapping.csv",encoding = "ISO-8859-1")
 df = df.dropna(subset=['Address'])
